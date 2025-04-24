@@ -1,0 +1,108 @@
+{
+    "notice": {
+        "id": 2025-04-24,
+        "context": "[2025-04-24]\n\n테스트 공지\n오랜 시간동안 관리하지 못해 대단히 죄송합니다. 현재 일부 기기에서 앱 다운로드가 되지 않는 문제를 수정하였습니다.\n\n앱의 업데이트는 순차적으로 진행 중에 있습니다. 기다려 주셔서 감사합니다.\n\n[기타]\n\n샘10+ 기기에서 새로고침 및 다운로드가 계속 실패하는 경우, 기기의 블루투스를 끄고 이용하시기 바랍니다.\n"
+    },
+    "update_version": "0.9.1",
+    "update_date": "2025-04-24",
+    "update_url": "http://repo.senia.kr/sem/release/1.0.06.apk",
+    "update_history": "앱 업데이트에 실패하는 경우, https://github.com/nerious2/SEM/releases 에서 직접 apk 파일을 다운로드 받아주세요.\n\n[v1.0.06 - 2023년 7월 11일]\n\n1.기기에 설치된 앱 버전이 모두의 이북 서버에 존재하는 앱 버전보다 높을 경우, 업데이트 버튼이 나오지 않도록 변경\n - 모두의 이북에서 관리하는 앱 리스트는 현재 수동으로 관리하고 있어, 플레이스토어 등에서 업데이트가 된 앱과 최신 버전이 상이할 수 있습니다. 양해 부탁드립니다.\n",
+    "update_type": "normal",
+    "update_minimum_version_code": 0,
+    "app": [
+        {
+            "label": "밀리의 서재",
+            "keyword": ["millie"],
+            "package": "kr.co.millie.millieshelf",
+            "store": "playStore"
+        },
+        {
+            "label": "Amazon Kindle",
+            "keyword": ["아마존", "킨들"],
+            "package": "com.amazon.kindle",
+            "store": "playStore"
+        },
+        {
+            "label": "네이버 시리즈",
+            "keyword": ["naver", "series"],
+            "package": "com.nhn.android.nbooks",
+            "store": "playStore"
+        },
+        {
+            "label": "교보eBook",
+            "keyword": ["교보이북"],
+            "package": "com.kyobo.ebook.common.b2c",
+            "store": "playStore"
+
+        },
+        {
+            "label": "교보도서관",
+            "package": "kr.co.kyobobook.KEL",
+            "store": "playStore"
+        },
+        {
+            "label": "북큐브",
+            "package": "com.bookcube.bookplayer",
+            "store": "playStore"
+        },
+        {
+            "label": "북큐브 전자도서관",
+            "package": "com.bookcube.digitallibrary",
+            "store": "playStore"
+        },
+        {
+            "label": "예스24 eBook",
+            "package": "com.yes24.ebook.fourth",
+            "store": "playStore"
+        },
+        {
+            "label": "예스24 도서관",
+            "package": "com.incube.newepub",
+            "store": "playStore"
+        },
+        {
+            "label": "예스24 전자도서관 리뉴얼",
+            "package": "com.yes24.library",
+            "store": "playStore"
+        },
+        {
+            "label": "알라딘 eBook",
+            "package": "kr.co.aladin.ebook",
+            "store": "playStore"
+        },
+        {
+            "label": "알라딘 전자도서관",
+            "package": "kr.co.aladin.elibrary",
+            "store": "playStore"
+        },
+        {
+            "label": "알라딘 전자도서관(구독형)",
+            "package": "com.bookers.aladin",
+            "store": "playStore"
+        },
+        {
+            "label": "부커스",
+            "keyword": ["bookers"],
+            "package": "com.bookers.ebook",
+            "store": "playStore"
+        },
+        {
+            "label": "카카오페이지",
+            "keyword": ["kakaopage", "page"],
+            "package": "com.kakao.page",
+            "store": "playStore"
+        },
+        {
+            "label": "리디",
+            "keyword": ["리디북스"],
+            "package": "com.initialcoms.ridi",
+            "store": "playStore"
+        },
+        {
+            "label": "INTERPARK 전자도서관",
+            "keyword": ["인터파크"],
+            "package": "com.inn.ipaprikab2b",
+            "store": "playStore"
+        }
+    ]
+}
